@@ -5,6 +5,7 @@ import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
+  Navigate
 } from "react-router-dom";
 import Home from './components/Home.jsx';
 import Features from './components/Features.jsx';
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App/>,
     children: [
+      {
+        index: true,
+        element: <Navigate to="/home" replace />,
+      },
       {
         path: "home",
         element: <Home/>,
