@@ -4,17 +4,15 @@ import './App.css'
 import ConnectionTester from './components/ConnectionTester'
 import DownloadButton from './components/DownloadButton'
 import AppDescription from './components/AppDescription'
+import Home from './components/Home'
+import { Outlet } from 'react-router'
 
 function App() {
 
   return (
     <>
-      <div>
-        <img src={lostSongLogo} className="logo" alt="LostSong logo" />
-      </div>
-      <h1>LostSong!</h1>
-      <AppDescription/>
-      <DownloadButton/>
+    <div>Sidebar</div>
+    <Outlet/>
     </>
   )
 }
