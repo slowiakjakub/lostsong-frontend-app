@@ -9,6 +9,7 @@ import {
 import DownloadButton from './components/DownloadButton.jsx';
 import Home from './components/Home.jsx';
 import Features from './components/Features.jsx';
+import About from './components/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <DownloadButton/>,
+        element: <About/>,
       },
     ],
   },
