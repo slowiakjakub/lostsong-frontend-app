@@ -3,6 +3,7 @@ import lostSongLogo from './assets/LostSongIcon.png'
 import './App.css'
 import ConnectionTester from './components/ConnectionTester'
 import DownloadButton from './components/DownloadButton'
+import AppDescription from './components/AppDescription'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,20 +16,8 @@ function App() {
         </a>
       </div>
       <h1>LostSong!</h1>
+      <AppDescription/>
       <DownloadButton/>
-      <br/>      <br/>
-      <ConnectionTester/>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

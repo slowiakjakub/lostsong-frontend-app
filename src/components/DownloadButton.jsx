@@ -16,7 +16,7 @@ function DownloadButton() {
     <button
       onClick={handleDownload}
       className="downloadButton">
-      Download for Windows
+      Pobierz dla Windows
     </button>
   );
 };
