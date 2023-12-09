@@ -1,6 +1,8 @@
 .downloadButton {
     padding: 10px 20px;
     font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
     background-color: #ff4d4d; /* Red shade */
     color: white;
     border: none;
