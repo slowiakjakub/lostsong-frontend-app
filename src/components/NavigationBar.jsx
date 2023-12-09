@@ -9,6 +9,7 @@ function NavigationBar() {
         <NavLink exact className="nav-link" activeClassName="nav-link-active" to="/home">Pobierz</NavLink>
         <NavLink className="nav-link" activeClassName="nav-link-active" to="/features">Funkcjonalności</NavLink>
         <NavLink className="nav-link" activeClassName="nav-link-active" to="/about">O projekcie</NavLink>
+        <NavLink className="nav-link" activeClassName="nav-link-active" to="/authors">Autorzy</NavLink>
         {/* Add other NavLink components for additional navigation items here */}
       </div>
     </nav>

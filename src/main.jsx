@@ -6,10 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import DownloadButton from './components/DownloadButton.jsx';
 import Home from './components/Home.jsx';
 import Features from './components/Features.jsx';
 import About from './components/About.jsx';
+import Authors from './components/Authors.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About/>,
+      },
+      {
+        path: "authors",
+        element: <Authors/>,
       },
     ],
   },
