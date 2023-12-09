@@ -1,0 +1,45 @@
+/* NavigationBar.css */
+.navigation-bar {
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-right: 2rem; /* Adjust the value as needed */
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #04AA6D;
+  }
+  
+  .nav-link-active {
+    color: #04AA6D;
+    border-bottom: 2px solid #04AA6D;
+  }
+  
+  /* Padding for main content */
+  .main-content {
+    padding-top: 70px; /* Adjust based on your navigation bar's actual height */
+  }
+  

@@ -1,13 +1,16 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; // NavLink will be used for active styling
+import './NavigationBar.css'; // Importing the CSS file for styling
 
 function NavigationBar() {
   return (
-    <>
-      <div>Navigation Bar</div>
-      <Link to={`home`}>Home</Link>
-      <Link to={`about`}>About</Link>
-    </>
+    <nav className="navigation-bar">
+      <div className="nav-container">
+        <NavLink exact className="nav-link" activeClassName="nav-link-active" to="/home">Home</NavLink>
+        <NavLink className="nav-link" activeClassName="nav-link-active" to="/about">About</NavLink>
+        {/* Add other NavLink components for additional navigation items here */}
+      </div>
+    </nav>
   );
 }
 
