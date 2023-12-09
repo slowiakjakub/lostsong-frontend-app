@@ -1,4 +1,5 @@
 import React from 'react';
+import './DownloadButton.css';
 
 function DownloadButton() {
   const handleDownload = () => {
@@ -14,19 +15,8 @@ function DownloadButton() {
   return (
     <button
       onClick={handleDownload}
-      style={{
-        padding: '10px 20px',
-        fontSize: '20px',
-        backgroundColor: '#4CAF50',
-        color: 'white',
-        border: 'none',
-        borderRadius: '5px',
-        cursor: 'pointer',
-        boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
-        transition: '0.3s',
-      }}
-    >
-      Download EXE
+      className="downloadButton">
+      Download for Windows
     </button>
   );
 };
