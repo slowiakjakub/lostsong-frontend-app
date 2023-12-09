@@ -6,14 +6,13 @@ import DownloadButton from './components/DownloadButton'
 import AppDescription from './components/AppDescription'
 import Home from './components/Home'
 import { Outlet, Link } from 'react-router-dom'
+import NavigationBar from './components/NavigationBar'
 
 function App() {
 
   return (
     <>
-    <div>Sidebar</div>
-    <Link to={`home`}>Home</Link>
-    <Link to={`about`}>About</Link>
+    <NavigationBar/>
     <Outlet/>
     </>
   )
