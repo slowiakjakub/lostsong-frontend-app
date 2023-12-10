@@ -30,12 +30,12 @@
   
   .nav-link:hover,
   .nav-link:focus {
-    color: #04AA6D;
+    color: #ff4d4d;
   }
   
   .nav-link-active {
-    color: #04AA6D;
-    border-bottom: 2px solid #04AA6D;
+    color: #ff4d4d;
+    border-bottom: 2px solid #ff4d4d;
   }
   
   /* Padding for main content */

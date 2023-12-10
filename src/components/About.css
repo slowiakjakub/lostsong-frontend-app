@@ -1,0 +1,52 @@
+/* About.css */
+.project-overview {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #1c1c1c;
+    color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-overview h1,
+  .project-overview h2,
+  .project-overview h3 {
+    color: #ff4d4d;
+  }
+  
+  .project-overview p,
+  .project-overview li {
+    color: #d0d0d0;
+  }
+  
+  .project-overview a {
+    color: #ff4d4d;
+    text-decoration: none;
+  }
+  
+  .project-overview a:hover {
+    text-decoration: underline;
+  }
+  
+  .architecture-section {
+    background: #242424;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .architecture-section h3 {
+    margin-top: 0.5rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li::before {
+    content: '• ';
+    color: #04AA6D;
+    font-weight: bold;
+  }
