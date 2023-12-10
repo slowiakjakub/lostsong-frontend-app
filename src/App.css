@@ -1,10 +1,9 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  position: fixed;
-  top: 130px; /* Adjust this value to the desired top margin */
+  position: relative;
+  top: 50px; /* Adjust this value to the desired top margin */
   width: 100%;
 }
 
