@@ -1,0 +1,43 @@
+/* src/components/Features.css */
+
+.features-container {
+    max-width: 700px; /* Adjust based on your design preference */
+    margin: 40px auto;
+    display: grid;
+    grid-gap: 20px; /* This adds space between the grid items */
+  }
+  
+  .feature-item {
+    background: #ffffff; /* Keeps the cards white */
+    color: black;
+    border-left: 4px solid #ff4d4d; /* Adds a colored border to the left for some visual interest */
+    padding: 20px;
+    border-radius: 10px; /* Slightly larger radius for a more modern feel */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Soft shadow for depth */
+    transition: all 0.3s ease;
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-5px); /* Lifts the card up slightly */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Increased shadow for a 'hover' effect */
+  }
+  
+  .feature-icon {
+    color: #ff4d4d; /* This should match the border color for consistency */
+    margin-right: 15px;
+    font-size: 1.5rem; /* Adjust icon size to your liking */
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+    font-weight: 600; /* Makes the title bolder */
+    margin-bottom: 5px;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #666; /* A lighter color for the description */
+  }
+  

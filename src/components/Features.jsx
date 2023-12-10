@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Features.css';
 
 const FeatureItem = ({ children }) => (
     <div className="feature-item">
