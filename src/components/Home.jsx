@@ -3,6 +3,7 @@
    import lostSongLogo from '../assets/LostSongIcon.png';
    import DownloadButton from './DownloadButton';
    import AppDescription from './AppDescription';
+import AppScreenshot from './AppScreenshot';
 
    function Home() {
      return (
@@ -13,6 +14,7 @@
          <h1>LostSong!</h1>
          <AppDescription/>
          <DownloadButton/>
+         <AppScreenshot/>
        </>
      );
    };
