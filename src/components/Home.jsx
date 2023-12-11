@@ -4,6 +4,7 @@
    import DownloadButton from './DownloadButton';
    import AppDescription from './AppDescription';
 import AppScreenshot from './AppScreenshot';
+import ConnectionTester from './ConnectionTester';
 
    function Home() {
      return (
@@ -15,6 +16,7 @@ import AppScreenshot from './AppScreenshot';
          <AppDescription/>
          <DownloadButton/>
          <AppScreenshot/>
+         <ConnectionTester/>
        </>
      );
    };
