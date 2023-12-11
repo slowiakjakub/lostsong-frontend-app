@@ -16,7 +16,7 @@ function About() {
             <p>Technologie: React, Vite. Hostowany na Vercel. Interakcje z backendem, prezentacja popularnych utworów i artystów.</p>
 
             <h3>Desktop</h3>
-            <p>Technologie: C#, WinForms. Funkcjonalności obejmują identyfikację utworów, tagowanie metadanych, zarządzanie biblioteką.</p>
+            <p>Technologie: C#, WinForms. Funkcjonalności obejmują identyfikację utworów, tagowanie metadanych.</p>
         </div>
 
         <h2>Jak to Działa?</h2>
