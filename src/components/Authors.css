@@ -1,0 +1,6 @@
+.author-container {
+    position: absolute; /* or 'fixed' if you want it to stay at the top even when scrolling */
+    top: 0;
+    left: 0;
+    width: 100%; /* assuming you want it to span the full width */
+  }
