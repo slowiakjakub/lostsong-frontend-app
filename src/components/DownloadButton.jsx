@@ -5,7 +5,7 @@ function DownloadButton() {
   const handleDownload = () => {
     // Assuming the .exe file is hosted on your server and accessible via a direct link
     const link = document.createElement('a');
-    link.href = './assets/LostSongInstaller.msi'; // Replace with your actual .exe file path
+    link.href = './src/assets/LostSongInstaller.msi'; // Replace with your actual .exe file path
     link.setAttribute('download', 'LostSongInstaller.msi'); // Optional: Set the download file name
     document.body.appendChild(link);
     link.click();
