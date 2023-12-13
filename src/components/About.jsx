@@ -34,9 +34,9 @@ function About() {
 
         <h2>Repozytoria na GitHub</h2>
         <ul>
-            <li><a href="#">Backend LostSong</a></li>
-            <li><a href="#">Frontend LostSong</a></li>
-            <li><a href="#">Desktopowa Aplikacja LostSong</a></li>
+            <li><a href="https://github.com/slowiakjakub/lostsong-backend">Backend LostSong</a></li>
+            <li><a href="https://github.com/slowiakjakub/lostsong-frontend-app">Frontend LostSong</a></li>
+            <li><a href="https://github.com/slowiakjakub/LostSongDesktopApp">Desktopowa Aplikacja LostSong</a></li>
         </ul>
     </div>
 );
